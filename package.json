@@ -1,0 +1,17 @@
+{
+  "name": "devcli-genius",
+  "version": "1.0.0",
+  "description": "A CLI tool to harness power of algolia MCP server and help developers with terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faizan",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^5.34.0",
+    "dotenv": "^17.2.0",
+    "fs": "^0.0.1-security",
+    "glob": "^11.0.3"
+  }
+}
