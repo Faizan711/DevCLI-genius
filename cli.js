@@ -16,9 +16,12 @@ program
     const spinner = ora(chalk.yellow("Thinking...")).start();
 
     try {
-      const response = await axios.post("http://localhost:3000/api/genius", {
-        query,
-      });
+      const response = await axios.post(
+        "https://devcli-genius.vercel.app/api/genius",
+        {
+          query,
+        }
+      );
       const { command, explanation } = response.data;
 
       spinner.succeed(chalk.green("Here is your command:"));

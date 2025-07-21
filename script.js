@@ -9,11 +9,11 @@ const lines = [
   "Welcome to DevCLI Genius!",
   "The AI-powered tool that translates natural language to shell commands.",
   " ",
-  "To install the CLI, run the following command in your terminal:",
-  'npx @your-npm-username/devcli-genius "your query"', // Change this to your actual package name
+  "To use DevCLI Genius, run the following command in your terminal:",
+  'npx devcli-genius "your query"', // Change this to your actual package name
   " ",
   "Example:",
-  'npx @your-npm-username/devcli-genius "git command to see commit history"',
+  'npx devcli-genius "git command to see commit history"',
   " ",
 ];
 
