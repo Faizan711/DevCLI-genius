@@ -4,16 +4,25 @@
   "description": "A CLI tool to harness power of algolia MCP server and help developers with terminal",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "genius": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Faizan",
   "license": "ISC",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "algoliasearch": "^5.34.0",
+    "axios": "^1.10.0",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
     "dotenv": "^17.2.0",
     "fs": "^0.0.1-security",
     "glob": "^11.0.3",
-    "url": "^0.11.4"
+    "ora": "^8.2.0",
+    "url": "^0.11.4",
+    "vercel": "^44.5.0"
   }
 }
