@@ -1,0 +1,32 @@
+body {
+  background-color: #1a1a1a;
+  color: #00ff41;
+  font-family: "Fira Code", monospace;
+  font-size: 16px;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#terminal {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: #00ff41;
+  width: 10px;
+  height: 1.2em;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #00ff41;
+  }
+}

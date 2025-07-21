@@ -1,0 +1,6 @@
+# .vercelignore
+
+node_modules/
+scripts/
+index.js
+cli.js
